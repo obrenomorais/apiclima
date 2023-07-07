@@ -11,7 +11,7 @@ export const HeaderContainer = styled.div`
   text-align: center;
   align-items: center;
   padding: 2em;
-  background-color: #2c2c2c2c;
+  background-color: #840623;
 `;
 
 export const HeaderNav = styled.nav`

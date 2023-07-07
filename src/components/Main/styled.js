@@ -5,7 +5,10 @@ export const MainContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #d5f6e0;
+  flex-direction: column;
+  padding-top: 100px;
+  gap: 5vw;
 `;
 
 export const SearchBarContainer = styled.div`
@@ -13,9 +16,9 @@ export const SearchBarContainer = styled.div`
   justify-content: center;
   align-items: center;
   background-color: white;
-  width: 350px;
+  width: 70%;
   height: 50px;
-  border: 1px solid black;
+  //border: 1px solid black;
   gap: 5px;
   padding-right: 2px;
 `;
@@ -26,11 +29,31 @@ export const SearchBar = styled.input`
   border: none;
   outline: none;
   font-size: 16px;
-  padding: 15px;
+  border-radius: 7px;
 `;
 
-export const CardContainer = styled.div``;
+export const CardContainer = styled.div`
+  width: 70%;
+  background-color: green;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+`;
 
-export const ContentCardContainer = styled.div``;
+export const CardContainerInfo = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+`;
 
-export const Content = styled.p``;
+export const CardContainerInfoBotton = styled.div`
+  width: 50%;
+  background-color: blueviolet;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+`;

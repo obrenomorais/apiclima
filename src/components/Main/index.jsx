@@ -5,8 +5,8 @@ import {
   SearchBar,
   MainContainer,
   CardContainer,
-  ContentCardContainer,
-  Content,
+  CardContainerInfo,
+  CardContainerInfoBotton,
 } from './styled';
 
 export default function Main() {
@@ -31,8 +31,20 @@ export default function Main() {
         </svg>
       </SearchBarContainer>
       <CardContainer>
-        <ContentCardContainer></ContentCardContainer>
-        <Content> </Content>
+        <CardContainerInfo>
+          <h1>Stockhol, SE</h1>
+          <h1>Stockhol, SE</h1>
+          <h1>"IMAGEM"</h1>
+          <h1>Clear Sky</h1>
+          <h1>Thusrsday 14:20 PMy</h1>
+        </CardContainerInfo>
+        <CardContainerInfoBotton>
+          <p>item 1</p>
+          <p>item 2</p>
+          <p>item 3</p>
+          <p>item 4</p>
+          <p>item 4</p>
+        </CardContainerInfoBotton>
       </CardContainer>
     </MainContainer>
   );
